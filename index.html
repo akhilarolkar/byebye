@@ -10,18 +10,27 @@
 
     <title>GoodBye</title>
   </head>
+  <style>
+    .background-image{
+      background-image: url('bg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+  </style>
   <body>
+    <div class="background-image">
     <div class="vh-100 d-flex justify-content-center align-items-center">
-            <div class="card shadow p-3 mb-5 bg-body rounded bg-info" style="width: 18rem;">
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
             <img src="gb.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <div class="text-center">
-                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Open 😸</button>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Open</button>
                 </div>
             </div>
             </div>
     </div>
-    
+    </div>
     <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
